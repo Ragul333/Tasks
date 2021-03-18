@@ -1,0 +1,11 @@
+Pass by Value:
+In Pass by Value, Function is called by directly passing the value of the variable as the argument. Changing the argument inside the function doesn’t affect the variable passed from outside the function. so changing the value of the variable never changes the underlying primitive (String or number).
+
+Pass by Reference:
+In Pass by Reference, Function is called by directly passing the reference/address of the variable as the argument. Changing the argument inside the function affect the variable passed from outside the function. In Javascript objects and arrays follows pass by reference.so if we are passing object or array as an argument to the method, then there is a possibility that value of the object can change.
+
+How to copy by value for composite data types?
+There are 3 ways to copy by value for composite data types.
+1.Using the spread (...) operator
+2.Using the Object.assign() method
+3.Using the JSON.stringify() and JSON.parse() methods
