@@ -1,0 +1,39 @@
+https://json-server-ragul.herokuapp.com/
+
+
+  HTTP 1.1:
+    
+      1 : "It loads resources one after the other, so if one resource cannot be loaded it blocks all the other resources behind it.",
+      2: "A server only serves content to a client device if the client asks for it. However, this approach is not always practical for modern webpages, which often involve several dozen separate resources that the client must request.",
+      3 : "Small files load more quickly than large ones. To speed up web performance,HTTP/1.1 compress HTTP messages to make them smaller."
+  
+  HTTP 2 : 
+    
+      1: "It is able to use a single TCP connection to send multiple streams of data at once so that no one resource blocks any other resource.",
+      2: "It solves this problem by allowing a server to push content to a client before the client asks for it. The server also sends a message letting the client know what pushed content to expect ",
+      3: "HTTP/2 uses a more advanced compression method called HPACK that eliminates redundant information in HTTP header packets. This eliminates a few bytes from every HTTP packet."
+
+    
+    
+      Javascript : 
+      1: "It is used inside a browser",
+      2: "It has window object",
+      3: "Document object is used to write in files",
+      4: "It is a programming language",
+      5: "Makes HTTP requests from browser"
+ 
+    
+    
+      NODE JS : 
+    
+      1: "It is used outside a browser",
+      2: "It has global object",
+      3: "Process object is used to write in files",
+      4: "It is a Runtime Environment not a programming language",
+      5: "Makes HTTP requests from local machine".
+
+The browser sends a HTTP request to the server
+The server sends back a HTTP response
+The browser begins rendering the HTML
+The browser sends requests for additional objects embedded in HTML (images, css, JavaScript).
+Once the page is loaded, the browser sends further async requests as needed.
